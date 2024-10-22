@@ -1,0 +1,173 @@
+.login-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.login-logo {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.forgot-password {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Add these styles to your existing login.css file */
+
+.input-group-text {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+}
+
+.input-group-text:first-child {
+  border-right: none;
+}
+
+.input-group-text:last-child {
+  border-left: none;
+}
+
+.form-control:not(:last-child) {
+  border-right: none;
+}
+
+.form-control:not(:first-child) {
+  border-left: none;
+}
+
+.input-group:focus-within .input-group-text,
+.input-group:focus-within .form-control {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-outline-secondary {
+  border-left: none;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: transparent;
+  color: #6c757d;
+}
+
+.input-icon {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-icon-right {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form-control {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.email-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+.password-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.form-control:focus + .email-icon,
+.form-control:focus ~ .password-icon {
+  color: #007bff;
+}
+
+/* Add these styles to your existing login.css file */
+
+.login-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.login-logo {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.forgot-password {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon .form-control {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+.input-with-icon .input-icon:not(.password-icon) {
+  left: 10px;
+}
+
+.password-icon {
+  right: 10px;
+  cursor: pointer;
+}
+
+.input-with-icon .form-control:focus + .input-icon,
+.input-with-icon .form-control:focus ~ .input-icon {
+  color: #007bff;
+}

@@ -1,0 +1,7 @@
+1)install dotnet core 8
+2)git; nvm; node20
+3)npm create vite@latest
+
+
+
+

@@ -1,0 +1,30 @@
+.signup-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.signup-logo {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  padding-left: 2.5rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

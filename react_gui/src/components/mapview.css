@@ -1,0 +1,19 @@
+
+@import "@arcgis/core/assets/esri/themes/light/main.css";
+/* @import "https://js.arcgis.com/4.30/@arcgis/core/assets/esri/themes/light/main.css"; */
+
+.mapDiv{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(45, 192, 106) !important;
+}
+.resizeHandle{
+    height: '10px';
+    cursor: 'ns-resize';
+    background-color: '#f0f0f0';
+    border-top: '1px solid #ccc';
+    border-bottom: '1px solid #ccc'
+}
+.card-body .esri-layer-list__item  {
+    background-color: aqua !important;
+}
