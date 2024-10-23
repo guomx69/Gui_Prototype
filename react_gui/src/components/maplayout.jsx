@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {ZoomIn, ZoomOut, Move } from 'lucide-react';
 import "./mapview.css";
-import NioGemsMapView from './mapview';
+import MapView from './mapview';
 import LayerListComponent from './layerListComponent';
 import LayerList from "@arcgis/core/widgets/LayerList";
 
@@ -144,7 +144,7 @@ const MapLayout = () => {
             <div className="card h-100">
               <div className="card-body d-flex justify-content-center align-items-center">
                 <div className="mapDiv">
-                   <NioGemsMapView updateLayerList={updateLayerList}></NioGemsMapView>
+                   <MapView updateLayerList={updateLayerList}></MapView>
                 </div>
               </div>
             </div>

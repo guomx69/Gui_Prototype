@@ -8,7 +8,7 @@ import "@arcgis/map-components/dist/components/arcgis-map";
 import "@arcgis/map-components/dist/components/arcgis-search";
 import "@arcgis/map-components/dist/components/arcgis-legend";
 import { ArcgisMap, ArcgisSearch, ArcgisLegend } from "@arcgis/map-components-react";
-const NioGemsMapView = ({updateLayerList}) => {
+const MapView = ({updateLayerList}) => {
      return (
             <ArcgisMap zoom={13}
                    itemId="d5dda743788a4b0688fe48f43ae7beb9"
@@ -26,5 +26,5 @@ const NioGemsMapView = ({updateLayerList}) => {
             )
     };
 
-export default NioGemsMapView;
+export default MapView;
   
