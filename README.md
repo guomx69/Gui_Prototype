@@ -8,6 +8,7 @@ Tech stacks:<br/>
 
 
 ------RFP Questions-----------
+--------------
 1)ArcGIS Calcite Design System vs Bootstrap   => too many framework will bloat the app? ArcGIS Calcite Design System  is good enough for the complex app<br/>
 2)Need React?   React Components and React state management ?<br/>
 
