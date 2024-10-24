@@ -2,7 +2,13 @@
 
 Tech stacks:<br/>
 1)React, Vite and Context<br/>
-2)
+2)ArcGIS Calcite Design System instead of Bootstrap<br/>
+
+
+------RFP Questions-----------
+1)if using ArcGIS Calcite Design System Components,do I still need bootstrap? too many framework will bloat the app?
+3)if I have ArcGIS Calcite Design System Map Components, I don't need React Components,do I need react? React state management is very useful for my app?
+4)ArcGIS Calcite Design System  Components is good enough for the complex app
 
 
 ---------------New technology: Web Components-----------
