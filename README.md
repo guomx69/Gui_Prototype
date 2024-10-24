@@ -3,6 +3,8 @@
 Tech stacks:<br/>
 1)React, Vite and Context<br/>
 2)ArcGIS Calcite Design System instead of Bootstrap<br/>
+  npm install --save @esri/calcite-components-react
+  npm install @arcgis/map-components-react
 
 
 ------RFP Questions-----------
