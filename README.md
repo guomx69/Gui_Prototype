@@ -7,9 +7,8 @@ Tech stacks:<br/>
 
 ---------------New technology: Web Components-----------
 --------------
-         1)You can use API directly from ArcGIS Map SDK for Javascript to create a map
-         2)You can use Components to create a map; ESRI use Web Components technology to wrap the ArcGIS Map SDK for Javascript
-           Just availabe in Maps(2D)
+         1)You can use API directly from ArcGIS Maps SDK for Javascript to create a map
+         2)You can use Components to create a map; ESRI use Web Components technology to wrap the ArcGIS Map SDK for Javascript,but just availabe in Maps(2D)
          3)You can use Component-React to create a map; ESRI use React to further wrap the above Components.
 
 --------------ESRI seems encourge to use CDN-------------
@@ -27,12 +26,13 @@ For most use cases when doing local builds, it is recommended to use the SDK's a
 
 Using the ArcGIS CDN eliminates the need to bundle these assets with your local build. This reduces the on-disk build size, and can improve build times
 -------------------
+
+
+----------not recommmend to load the code from CDN------------------
 <!-- Load Map Components from CDN-->
   <link rel="stylesheet" href="https://js.arcgis.com/4.30/esri/themes/light/main.css">
   <script src="https://js.arcgis.com/4.30/"></script>
   <script type="module" src="https://js.arcgis.com/map-components/4.30/arcgis-map-components.esm.js"></script>
-
-</head>
 
 <body>
 
@@ -43,3 +43,5 @@ Using the ArcGIS CDN eliminates the need to bundle these assets with your local 
   </arcgis-map>
 
 </body>
+import FeatureLayer from "https://js.arcgis.com/4.28/@arcgis/core/layers/FeatureLayer.js";
+import GraphicsLayer from "https://js.arcgis.com/4.28/@arcgis/core/layers/GraphicsLayer.js";
