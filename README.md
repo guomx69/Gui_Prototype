@@ -43,5 +43,27 @@ Using the ArcGIS CDN eliminates the need to bundle these assets with your local 
   </arcgis-map>
 
 </body>
-import FeatureLayer from "https://js.arcgis.com/4.28/@arcgis/core/layers/FeatureLayer.js";
-import GraphicsLayer from "https://js.arcgis.com/4.28/@arcgis/core/layers/GraphicsLayer.js";
+------------------------ES module------------------
+<!-- CSS from CDN -->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.28/@arcgis/core/assets/esri/themes/light/main.css">
+
+<!-- JavaScript from CDN -->
+    <script type="module">
+        import Map from "https://js.arcgis.com/4.28/@arcgis/core/Map.js";
+        import MapView from "https://js.arcgis.com/4.28/@arcgis/core/views/MapView.js";
+        import esriConfig from "https://js.arcgis.com/4.28/@arcgis/core/config.js";
+
+        // Set portal URL (optional)
+        esriConfig.portalUrl = "https://www.arcgis.com";
+
+        const map = new Map({
+            basemap: "topo-vector"
+        });
+
+        const view = new MapView({
+            container: "viewDiv",
+            map: map,
+            zoom: 4,
+            center: [-98, 35]
+        });
+    </script>
