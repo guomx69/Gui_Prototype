@@ -11,7 +11,7 @@ Tech stacks:<br/>
          2)You can use Components to create a map; ESRI use Web Components technology to wrap the ArcGIS Map SDK for Javascript,but just availabe in Maps(2D)
          3)You can use Component-React to create a map; ESRI use React to further wrap the above Components.
 
---------------ESRI seems encourge to use CDN-------------
+--------------ESRI encourge to use CDN for essets-------------
 ----------
 @import "https://js.arcgis.com/4.30/@arcgis/core/assets/esri/themes/dark/main.css";
 @import "https://js.arcgis.com/calcite-components/2.11.1/calcite.css";
